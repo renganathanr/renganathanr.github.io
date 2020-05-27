@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Renganathan&#39;s Personal Website</title>
+    <link>http://renganathanr.github.io/posts/</link>
+    <description>Recent content in Posts on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2020 14:47:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://renganathanr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WebsiteInfo</title>
+      <link>http://renganathanr.github.io/posts/websiteinfo/</link>
+      <pubDate>Tue, 26 May 2020 14:47:00 -0400</pubDate>
+      
+      <guid>http://renganathanr.github.io/posts/websiteinfo/</guid>
+      <description>Renganathan&amp;rsquo;s Personal Website The reason behind the creation of this site. I like a famous saying &amp;ldquo;Knowledge is the power&amp;quot;. Now we are all on Internet age. So with the help of current interface, I would like to share my knowledge to everybody.
+I have a plan of making small scale applications using Python in the backend and Markdown in the frontend and I am using the Hugo, a static site generator for creating this website.</description>
+    </item>
+    
+    <item>
+      <title>MyFirstPost</title>
+      <link>http://renganathanr.github.io/posts/myfirstpost/</link>
+      <pubDate>Sun, 24 May 2020 21:50:53 -0400</pubDate>
+      
+      <guid>http://renganathanr.github.io/posts/myfirstpost/</guid>
+      <description>About me I am Renganathan Raja Chithambaram, who is currently a graduate mechanical engineering student studying at Rochester Institute of Technology, New York.
+Although I am a mechanical engineering student, I love computing. So, I created my first web application and posted about my details through my first post. I am gonna post more information on my upcoming posts.</description>
+    </item>
+    
+  </channel>
+</rss>
