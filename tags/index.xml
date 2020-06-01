@@ -5,9 +5,28 @@
     <link>https://renganathanr.github.io/tags/</link>
     <description>Recent content in Tags on Renganathan&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 18:43:37 -0400</lastBuildDate>
     
 	<atom:link href="https://renganathanr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Masters</title>
+      <link>https://renganathanr.github.io/tags/masters/</link>
+      <pubDate>Thu, 28 May 2020 18:43:37 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/tags/masters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RIT</title>
+      <link>https://renganathanr.github.io/tags/rit/</link>
+      <pubDate>Thu, 28 May 2020 18:43:37 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/tags/rit/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

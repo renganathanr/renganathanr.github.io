@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Masters on Renganathan&#39;s Personal Website</title>
+    <link>https://renganathanr.github.io/tags/masters/</link>
+    <description>Recent content in Masters on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 18:43:37 -0400</lastBuildDate>
+    
+	<atom:link href="https://renganathanr.github.io/tags/masters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpringCourses</title>
+      <link>https://renganathanr.github.io/blog/springcourses/</link>
+      <pubDate>Thu, 28 May 2020 18:43:37 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/springcourses/</guid>
+      <description>Courses taken in Spring semester=&amp;gt; CGPA: 3.3 1. Introduction to Optimal Design=&amp;gt; Grade: B+ In this coursework, I learned the optimization techniques which will help to achieve better results in the real world problems. Techniques like Kuhn-Tucker method, Bisection method, Powell&amp;rsquo;s method, Cubic search method, Golden Section method, Steepest Descent method, Fletcher Reeves method, Davidson-Fletcher-Powell method, Broydon-Fletcher-Goldfarb-Shanno method, Newton&amp;rsquo;s method, Exterior Penalty Function method, Extended Interior Penalty Function method, Augmented Legrangian method, Sequential Linear Programming method, Method of Center, and Method of Feasible Directions are all learned through this coursework.</description>
+    </item>
+    
+    <item>
+      <title>MyFirstPost</title>
+      <link>https://renganathanr.github.io/blog/myfirstpost/</link>
+      <pubDate>Sun, 24 May 2020 21:50:53 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/myfirstpost/</guid>
+      <description>About me I am Renganathan Raja Chithambaram, who is currently a graduate mechanical engineering student studying at Rochester Institute of Technology, New York.
+Although I am a mechanical engineering student, I love computing. So, I created my first web application and posted about my details through my first post. I am gonna post more information on my upcoming posts.</description>
+    </item>
+    
+  </channel>
+</rss>
