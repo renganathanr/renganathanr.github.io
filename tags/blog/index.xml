@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Renganathan&#39;s Personal Website</title>
+    <link>https://renganathanr.github.io/tags/blog/</link>
+    <description>Recent content in blog on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Jun 2020 09:58:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://renganathanr.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weeknotes</title>
+      <link>https://renganathanr.github.io/blog/weeknotes/</link>
+      <pubDate>Mon, 01 Jun 2020 09:58:28 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/weeknotes/</guid>
+      <description>Weeknotes-05242020 This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.
+First I learned that there exists two types of website. One is static site and another one is dynamic site. The difference is the contents in the static website are preloaded and only managed by client side whereas in the dynamic sites it can also done through the server side.</description>
+    </item>
+    
+  </channel>
+</rss>
