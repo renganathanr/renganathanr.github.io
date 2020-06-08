@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weeknotes on Renganathan&#39;s Personal Website</title>
+    <link>https://renganathanr.github.io/categories/weeknotes/</link>
+    <description>Recent content in Weeknotes on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2020 12:39:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://renganathanr.github.io/categories/weeknotes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week2-20200531</title>
+      <link>https://renganathanr.github.io/blog/2020/weeknotes2/</link>
+      <pubDate>Sun, 07 Jun 2020 12:39:22 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/weeknotes2/</guid>
+      <description>As a continuity of first week, I get into learning of making a dynamic website.
+Goal The goal is to create a basic todo web application. For this, you need to have some basic understanding and knowledge of handling HTML and CSS, Python and its dependencies, Database application.
+Status Right now, I learned how to use HTML without CSS to show some basic content in a browser with help of Python with one of its dependency Flask.</description>
+    </item>
+    
+    <item>
+      <title>Week1-20200524</title>
+      <link>https://renganathanr.github.io/blog/2020/weeknotes1/</link>
+      <pubDate>Mon, 01 Jun 2020 09:58:28 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/weeknotes1/</guid>
+      <description>This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.
+First I learned that there exists two types of website. One is static site and another one is dynamic site. The difference is the contents in the static website are preloaded and only managed by client side whereas in the dynamic sites it can also done through the server side.</description>
+    </item>
+    
+  </channel>
+</rss>

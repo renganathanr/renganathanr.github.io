@@ -1,459 +1,228 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-<title>Renganathan&#39;s Personal Website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<meta name="generator" content="Hugo 0.71.0" /><meta itemprop="name" content="Renganathan&#39;s Personal Website">
-<meta itemprop="description" content=""><meta property="og:title" content="Renganathan&#39;s Personal Website" />
-<meta property="og:description" content="" />
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.71.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Renganathan&#39;s Personal Website</title>
+    <meta name="description" content=".main-image { background-repeat: no-repeat; background-size: 100%100%; background-image: url(/images/Work1.jpg); }  Are you ready?    Some title My paragraph. -- BlogWeek2-20200531Renganathan | June 7, 2020As a continuity of first week, I get into learning of making a dynamic website. Goal The goal is to create a basic todo web application. For this, you need to have some basic understanding and knowledge of handling HTML and CSS, Python and its dependencies, Database application.">
+    <link rel="canonical" href="https://renganathanr.github.io/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta property="og:title" content="Home" />
+<meta property="og:description" content="A site for information" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://renganathanr.github.io/" />
-<meta property="og:updated_time" content="2020-06-01T09:58:28-04:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Renganathan&#39;s Personal Website"/>
-<meta name="twitter:description" content=""/>
-<link rel="stylesheet" href="/css/bundle.min.052e421210693fe08075e9da2a349c35e1cae3cd8e8c3301d62d9d41f9ab9221.css" integrity="sha256-BS5CEhBpP&#43;CAdenaKjScNeHK482OjDMB1i2dQfmrkiE="><link rel="stylesheet" href="/css/add-on.css">
-</head>
+<meta property="og:updated_time" content="2020-06-05T18:21:20-04:00" />
 
-  <body>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Home"/>
+<meta name="twitter:description" content="A site for information"/>
+
     
-  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;text-align:center;width:75%;">
-    <p>This message, related to the development of the theme, only displays on the
-      <code>localhost</code> homepage to notify you of any important theme changes.</p>
-      <hr>
-      <h5 style="color:#f4f4f4"><i class="fas fa-exclamation-triangle"></i>Version 1.0.1 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
-      <p style="margin-top:0;">This message is newly implemented for use in future updates.
-      <br><button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-top:1em;">Close Notification Until Next Update</button></p>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+</head><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>Home</h1></span>
+                </a>
+                
+                <a href="https://github.com/renganathanr" class="navbar-item is-hidden-desktop" title="GitHub"><span
+                        class="icon"><i class='fab fa-github'></i></span></a>
+                
+                <a href="https://www.linkedin.com/in/renganathan-raja-chithambaram-18a925192/" class="navbar-item is-hidden-desktop" title="Linkedin"><span
+                        class="icon"><i class='fab fa-linkedin'></i></span></a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/blog" class="navbar-item">Blog</a>
+                    
+                    <a href="/categories" class="navbar-item">Categories</a>
+                    
+                    <a href="/projects" class="navbar-item">Projects</a>
+                    
+                    <a href="/resume" class="navbar-item">Resume</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/renganathanr" class="navbar-item is-hidden-touch" title="GitHub"><span
+                            class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                    <a href="https://www.linkedin.com/in/renganathan-raja-chithambaram-18a925192/" class="navbar-item is-hidden-touch" title="Linkedin"><span
+                            class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
     <script>
-      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.0.1') {
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-      function removeBox() {
-        window.localStorage.setItem('HFIS-version', '1.0.1');
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
     </script>
-  </div><header id="site-header">
-  <nav id="site-nav">
-    <h1 class="nav-title">
-      <a href="/">
-        
-          Renganathan's Personal Website
-        
-      </a>
-    </h1>
-    <menu id="site-nav-menu" class="flyout-menu">
-      
-        
-          
-          
-            <a href="/" class="link"><i class='fa fa-home'></i> Home</a>
-          
-        
-      
-        
-          
-          
-            <a href="/about/" class="link"><i class='far fa-id-card'></i> About</a>
-          
-        
-      
-        
-          
-          
-            <a href="/blog/" class="link"><i class='far fa-newspaper'></i> Blog</a>
-          
-        
-      
-        
-          
-          
-            <a href="/projects/" class="link"><i class='fas fa-tasks'></i> Projects</a>
-          
-        
-      
-        
-          
-          
-            <a href="/resume/" class="link"><i class='fas fa-file'></i> Resume</a>
-          
-        
-      
-        
-          
-          
-            <a href="/contact/" class="link"><i class='far fa-envelope'></i> Contact</a>
-          
-        
-      
-      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
-      
-    </menu>
-    
-    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
-    
-    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
-  </nav>
-  
-  
-    <menu id="share-menu" class="flyout-menu">
-      <h1>Share Post</h1>
-      
-
-
-
-
-  
-    
-    <a href="//twitter.com/share?text=Renganathan%27s%20Personal%20Website&amp;url=https%3a%2f%2frenganathanr.github.io%2f" target="_blank" rel="noopener" class="share-btn twitter">
-        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
-      </a>
-  
-
-  
-      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frenganathanr.github.io%2f" target="_blank" rel="noopener" class="share-btn facebook">
-        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
-        </a>
-  
-
-  
-    <a href="//www.reddit.com/submit?url=https%3a%2f%2frenganathanr.github.io%2f&amp;title=Renganathan%27s%20Personal%20Website" target="_blank" rel="noopener" class="share-btn reddit">
-          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
-        </a>
-  
-
-  
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2frenganathanr.github.io%2f&amp;title=Renganathan%27s%20Personal%20Website" target="_blank" rel="noopener" class="share-btn linkedin">
-            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
-          </a>
-  
-
-  
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2frenganathanr.github.io%2f&amp;description=Renganathan%27s%20Personal%20Website" target="_blank" rel="noopener" class="share-btn pinterest">
-          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
-        </a>
-  
-
-  
-        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2frenganathanr.github.io%2f" target="_blank" class="share-btn email" data-proofer-ignore>
-          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
-        </a>
-  
-
-
-    </menu>
-  
-</header>
-
-    <div id="wrapper">
-      <section id="site-intro" >
-  
-  <header>
-    
-  </header>
-  <main>
-    
-  </main>
-  
-</section>
-
-      <main id="site-main">
-        
-        
-          <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/weeknotes/">Weeknotes</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time class="published" datetime="2020-06-01 09:58:28 -0400 EDT">
-      June 1, 2020
-    </time>
-    <span class="author"></span>
-    
-      <p>2 minute read</p>
-    
-  </div>
-</header>
-
-  
-
-  
-  <p>This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.</p>
-  <footer>
-    <a href="/blog/weeknotes/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    <li class="categories">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-  
-    
-    
-      <li class="tags">
-        <ul>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/weeknotes">weeknotes</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/05242020">05242020</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/blog">blog</a></li>
-          
-        </ul>
-      </li>
-    
-  
-</ul>
-
-  </footer>
-</article>
-
-        
-          <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/springcourses/">SpringCourses</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time class="published" datetime="2020-05-28 18:43:37 -0400 EDT">
-      May 28, 2020
-    </time>
-    <span class="author">Renganathan</span>
-    
-      <p>2 minute read</p>
-    
-  </div>
-</header>
-
-  
-
-  
-  <p>In this coursework, I learned the optimization techniques which will help to achieve better results in the real world problems. Techniques like Kuhn-Tucker method, Bisection method, Powell&rsquo;s method, Cubic search method, Golden Section method, Steepest Descent method, Fletcher Reeves method, Davidson-Fletcher-Powell method, Broydon-Fletcher-Goldfarb-Shanno method, Newton&rsquo;s method, Exterior Penalty Function method, Extended Interior Penalty Function method, Augmented Legrangian method,&hellip;</p>
-  <footer>
-    <a href="/blog/springcourses/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    <li class="categories">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-  
-    
-    
-      <li class="tags">
-        <ul>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/rit">RIT</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/masters">Masters</a></li>
-          
-        </ul>
-      </li>
-    
-  
-</ul>
-
-  </footer>
-</article>
-
-        
-          <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/websiteinfo/">WebsiteInfo</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time class="published" datetime="2020-05-26 14:47:00 -0400 EDT">
-      May 26, 2020
-    </time>
-    <span class="author">Renganathan</span>
-    
-      <p>1 minute read</p>
-    
-  </div>
-</header>
-
-  
-
-  
-  <p>The reason behind the creation of this site. I like a famous saying &ldquo;<strong>Knowledge is the power</strong>&quot;. Now we are all on Internet age. So with the help of current interface, I would like to share my knowledge to everybody.</p>
-  <footer>
-    <a href="/blog/websiteinfo/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    <li class="categories">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-  
-    <li class="tags">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-</ul>
-
-  </footer>
-</article>
-
-        
-          <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/myfirstpost/">MyFirstPost</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time class="published" datetime="2020-05-24 21:50:53 -0400 EDT">
-      May 24, 2020
-    </time>
-    <span class="author">Renganathan</span>
-    
-      <p>1 minute read</p>
-    
-  </div>
-</header>
-
-  
-
-  
-  <p>I am Renganathan Raja Chithambaram, who is currently a graduate mechanical engineering student studying at Rochester Institute of Technology, New York.</p>
-  <footer>
-    <a href="/blog/myfirstpost/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    <li class="categories">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-  
-    
-    
-      <li class="tags">
-        <ul>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/rit">RIT</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://renganathanr.github.io/tags/masters">Masters</a></li>
-          
-        </ul>
-      </li>
-    
-  
-</ul>
-
-  </footer>
-</article>
-
-        
-        
-<div class="pagination">
-  
-  
-</div>
-
-      </main>
-      <section id="site-sidebar">
-  
-
-  
-
-  
-</section>
-
-      <footer id="site-footer">
-  
-      <ul class="socnet-icons">
-        
-        <li><a href="//github.com/renganathanr" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </ul>
-  
-  <p class="copyright">
-    
-      &copy; 2020
-      
-        Renganathan&#39;s Personal Website
-      
-    . <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.71.0' target='_blank' rel='noopener'>Hugo</a>
-  </p>
-</footer>
-<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
-
-      <script src="/js/bundle.min.ba01f4c6fd09c8681f5bb9960755a2d29a543735c990ef92c5c97365cbb37a4e.js" integrity="sha256-ugH0xv0JyGgfW7mWB1Wi0ppUNzXJkO&#43;SxclzZcuzek4="></script>
-    <script src="/js/add-on.js"></script>
+</header><main>
+<style>
+.main-image {
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+    background-image: url(/images/Work1.jpg);
+}
+</style>
+<section class="hero is-large is-dark main-image">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h2 class="title is-1", style="font-size:75px;"><b>Are you ready?</b></h2>
+        </div>
     </div>
-  </body>
+</section>
+<!-- <section class="section">
+    <div class="container">
+        <div class="content">
+        <h2 id="some-title">Some title</h2>
+<p>My paragraph.
+        </div>
+    </div>
+</section> -->
+
+
+
+<section class="section">
+    <div class="container">
+        <h2 class="title has-text-centered">Blog</h2>
+        <div class="columns is-multiline">
+            
+            <div class="column is-one-third">
+                
+<div class="card">
+    
+    <div class="card-content">
+        <a class="title is-4" href="https://renganathanr.github.io/blog/2020/weeknotes2/">Week2-20200531</a>
+        <span class="heading">Renganathan | <time>June 7, 2020</time></span>
+        <div class="content">
+            As a continuity of first week, I get into learning of making a dynamic website.
+Goal The goal is to create a basic todo web application. For this, you need to have some basic understanding and knowledge of handling HTML and CSS, Python and its dependencies, Database application.
+Status Right now, I learned how to use HTML without CSS to show some basic content in a browser with help of Python with one of its dependency Flask.
+        </div>
+    </div>
+    <div class="tags is-pulled-right">
+        
+        <a class="tag is-primary is-radiusless" href="/categories/rit">RIT</a>
+        
+        <a class="tag is-primary is-radiusless" href="/categories/weeknotes">Weeknotes</a>
+        
+    </div>
+</div>
+            </div>
+            
+            <div class="column is-one-third">
+                
+<div class="card">
+    
+    <div class="card-content">
+        <a class="title is-4" href="https://renganathanr.github.io/blog/2020/weeknotes1/">Week1-20200524</a>
+        <span class="heading">Renganathan | <time>June 1, 2020</time></span>
+        <div class="content">
+            This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.
+First I learned that there exists two types of website. One is static site and another one is dynamic site. The difference is the contents in the static website are preloaded and only managed by client side whereas in the dynamic sites it can also done through the server side.
+        </div>
+    </div>
+    <div class="tags is-pulled-right">
+        
+        <a class="tag is-primary is-radiusless" href="/categories/rit">RIT</a>
+        
+        <a class="tag is-primary is-radiusless" href="/categories/weeknotes">Weeknotes</a>
+        
+    </div>
+</div>
+            </div>
+            
+            <div class="column is-one-third">
+                
+<div class="card">
+    
+    <div class="card-content">
+        <a class="title is-4" href="https://renganathanr.github.io/blog/2020/springcourses/">SpringCourses</a>
+        <span class="heading">Renganathan | <time>May 28, 2020</time></span>
+        <div class="content">
+            Courses taken in Spring semester=&gt; CGPA: 3.3 1. Introduction to Optimal Design=&gt; Grade: B+ In this coursework, I learned the optimization techniques which will help to achieve better results in some real world problems. For example, take a car. While thinking, the common design variables which meet customer expectations are fuel efficiency, lifetime, and safety. Specifically saying the break efficiency is a design variable that helps to achieve better fuel efficiency and safety of the car but there are some constraints like profit, loss, and environmental considerations that determine the line between customer satisfaction and sales of a company.
+        </div>
+    </div>
+    <div class="tags is-pulled-right">
+        
+        <a class="tag is-primary is-radiusless" href="/categories/rit">RIT</a>
+        
+        <a class="tag is-primary is-radiusless" href="/categories/masters">Masters</a>
+        
+    </div>
+</div>
+            </div>
+            
+            <div class="column is-one-third">
+                
+<div class="card">
+    
+    <div class="card-content">
+        <a class="title is-4" href="https://renganathanr.github.io/blog/2020/myfirstpost/">MyFirstPost</a>
+        <span class="heading">Renganathan | <time>May 24, 2020</time></span>
+        <div class="content">
+            I was a normal person who actually browse through the web. Now, I started my own blogging site and gonna post my first post. This is interesting that you get something for your effort. I feel happy right now becuase of making this blogging site worked.
+The purpose behind the site creation is to share the knowledge and to improve my English proficiency.
+        </div>
+    </div>
+    <div class="tags is-pulled-right">
+        
+        <a class="tag is-primary is-radiusless" href="/categories/rit">RIT</a>
+        
+        <a class="tag is-primary is-radiusless" href="/categories/general">General</a>
+        
+    </div>
+</div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+        </main><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/about" class="">About</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/privacy" class="">Privacy</a>
+            </div>
+            
+        </div>
+    </div>
+</footer></body>
 </html>

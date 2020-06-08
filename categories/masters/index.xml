@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Masters on Renganathan&#39;s Personal Website</title>
+    <link>https://renganathanr.github.io/categories/masters/</link>
+    <description>Recent content in Masters on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 May 2020 18:43:37 -0400</lastBuildDate>
+    
+	<atom:link href="https://renganathanr.github.io/categories/masters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpringCourses</title>
+      <link>https://renganathanr.github.io/blog/2020/springcourses/</link>
+      <pubDate>Thu, 28 May 2020 18:43:37 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/springcourses/</guid>
+      <description>Courses taken in Spring semester=&amp;gt; CGPA: 3.3 1. Introduction to Optimal Design=&amp;gt; Grade: B+ In this coursework, I learned the optimization techniques which will help to achieve better results in some real world problems. For example, take a car. While thinking, the common design variables which meet customer expectations are fuel efficiency, lifetime, and safety. Specifically saying the break efficiency is a design variable that helps to achieve better fuel efficiency and safety of the car but there are some constraints like profit, loss, and environmental considerations that determine the line between customer satisfaction and sales of a company.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Renganathan&#39;s Personal Website</title>
+    <title>Blog on Renganathan&#39;s Personal Website</title>
     <link>https://renganathanr.github.io/blog/</link>
-    <description>Recent content in Blogs on Renganathan&#39;s Personal Website</description>
+    <description>Recent content in Blog on Renganathan&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jun 2020 09:58:28 -0400</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2020 19:23:34 -0400</lastBuildDate>
     
 	<atom:link href="https://renganathanr.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Weeknotes</title>
-      <link>https://renganathanr.github.io/blog/weeknotes/</link>
+      <title>Week2-20200531</title>
+      <link>https://renganathanr.github.io/blog/2020/weeknotes2/</link>
+      <pubDate>Sun, 07 Jun 2020 12:39:22 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/weeknotes2/</guid>
+      <description>As a continuity of first week, I get into learning of making a dynamic website.
+Goal The goal is to create a basic todo web application. For this, you need to have some basic understanding and knowledge of handling HTML and CSS, Python and its dependencies, Database application.
+Status Right now, I learned how to use HTML without CSS to show some basic content in a browser with help of Python with one of its dependency Flask.</description>
+    </item>
+    
+    <item>
+      <title>Week1-20200524</title>
+      <link>https://renganathanr.github.io/blog/2020/weeknotes1/</link>
       <pubDate>Mon, 01 Jun 2020 09:58:28 -0400</pubDate>
       
-      <guid>https://renganathanr.github.io/blog/weeknotes/</guid>
-      <description>Weeknotes-05242020 This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.
+      <guid>https://renganathanr.github.io/blog/2020/weeknotes1/</guid>
+      <description>This is my first week I wrote week notes for my blog. In this week I learned so many information about creation of a web application.
 First I learned that there exists two types of website. One is static site and another one is dynamic site. The difference is the contents in the static website are preloaded and only managed by client side whereas in the dynamic sites it can also done through the server side.</description>
     </item>
     
     <item>
       <title>SpringCourses</title>
-      <link>https://renganathanr.github.io/blog/springcourses/</link>
+      <link>https://renganathanr.github.io/blog/2020/springcourses/</link>
       <pubDate>Thu, 28 May 2020 18:43:37 -0400</pubDate>
       
-      <guid>https://renganathanr.github.io/blog/springcourses/</guid>
-      <description>Courses taken in Spring semester=&amp;gt; CGPA: 3.3 1. Introduction to Optimal Design=&amp;gt; Grade: B+ In this coursework, I learned the optimization techniques which will help to achieve better results in the real world problems. Techniques like Kuhn-Tucker method, Bisection method, Powell&amp;rsquo;s method, Cubic search method, Golden Section method, Steepest Descent method, Fletcher Reeves method, Davidson-Fletcher-Powell method, Broydon-Fletcher-Goldfarb-Shanno method, Newton&amp;rsquo;s method, Exterior Penalty Function method, Extended Interior Penalty Function method, Augmented Legrangian method, Sequential Linear Programming method, Method of Center, and Method of Feasible Directions are all learned through this coursework.</description>
-    </item>
-    
-    <item>
-      <title>WebsiteInfo</title>
-      <link>https://renganathanr.github.io/blog/websiteinfo/</link>
-      <pubDate>Tue, 26 May 2020 14:47:00 -0400</pubDate>
-      
-      <guid>https://renganathanr.github.io/blog/websiteinfo/</guid>
-      <description>Renganathan&amp;rsquo;s Personal Website The reason behind the creation of this site. I like a famous saying &amp;ldquo;Knowledge is the power&amp;quot;. Now we are all on Internet age. So with the help of current interface, I would like to share my knowledge to everybody.
-I have a plan of making small scale applications using Python in the backend and Markdown in the frontend and I am using the Hugo, a static site generator for creating this website.</description>
+      <guid>https://renganathanr.github.io/blog/2020/springcourses/</guid>
+      <description>Courses taken in Spring semester=&amp;gt; CGPA: 3.3 1. Introduction to Optimal Design=&amp;gt; Grade: B+ In this coursework, I learned the optimization techniques which will help to achieve better results in some real world problems. For example, take a car. While thinking, the common design variables which meet customer expectations are fuel efficiency, lifetime, and safety. Specifically saying the break efficiency is a design variable that helps to achieve better fuel efficiency and safety of the car but there are some constraints like profit, loss, and environmental considerations that determine the line between customer satisfaction and sales of a company.</description>
     </item>
     
     <item>
       <title>MyFirstPost</title>
-      <link>https://renganathanr.github.io/blog/myfirstpost/</link>
+      <link>https://renganathanr.github.io/blog/2020/myfirstpost/</link>
       <pubDate>Sun, 24 May 2020 21:50:53 -0400</pubDate>
       
-      <guid>https://renganathanr.github.io/blog/myfirstpost/</guid>
-      <description>About me I am Renganathan Raja Chithambaram, who is currently a graduate mechanical engineering student studying at Rochester Institute of Technology, New York.
-Although I am a mechanical engineering student, I love computing. So, I created my first web application and posted about my details through my first post. I am gonna post more information on my upcoming posts.</description>
+      <guid>https://renganathanr.github.io/blog/2020/myfirstpost/</guid>
+      <description>I was a normal person who actually browse through the web. Now, I started my own blogging site and gonna post my first post. This is interesting that you get something for your effort. I feel happy right now becuase of making this blogging site worked.
+The purpose behind the site creation is to share the knowledge and to improve my English proficiency.</description>
     </item>
     
   </channel>

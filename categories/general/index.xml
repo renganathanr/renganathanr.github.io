@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Renganathan&#39;s Personal Website</title>
+    <link>https://renganathanr.github.io/categories/general/</link>
+    <description>Recent content in General on Renganathan&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 May 2020 21:50:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://renganathanr.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MyFirstPost</title>
+      <link>https://renganathanr.github.io/blog/2020/myfirstpost/</link>
+      <pubDate>Sun, 24 May 2020 21:50:53 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/myfirstpost/</guid>
+      <description>I was a normal person who actually browse through the web. Now, I started my own blogging site and gonna post my first post. This is interesting that you get something for your effort. I feel happy right now becuase of making this blogging site worked.
+The purpose behind the site creation is to share the knowledge and to improve my English proficiency.</description>
+    </item>
+    
+  </channel>
+</rss>
