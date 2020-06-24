@@ -6,10 +6,20 @@
     <description>Recent content in RIT on Renganathan&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 19:08:09 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 10:01:34 -0400</lastBuildDate>
     
 	<atom:link href="https://renganathanr.github.io/categories/rit/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week-20200614</title>
+      <link>https://renganathanr.github.io/blog/2020/weeknotes4/</link>
+      <pubDate>Wed, 24 Jun 2020 10:01:34 -0400</pubDate>
+      
+      <guid>https://renganathanr.github.io/blog/2020/weeknotes4/</guid>
+      <description>In this week, I learned less amount of things related to web development. Last week I created a basic todo webapp in order to perform its primary purpose and found many unknown Flask syntaxes in it. So I learned those unknowns and debug my webapp.
+Debugging 1. Identify and show a warning message if empty string entered into task content form In first when I created the app by following the Youtube tutorial - Learn Flask for Python - Full Tutorial.</description>
+    </item>
     
     <item>
       <title>Week3-20200607</title>
